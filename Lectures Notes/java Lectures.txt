@@ -1,0 +1,110 @@
+Day1 Java training
+Step1: JDK Install from google
+ Drive c< Program files< Java<bin -> Copy the path
+ Right click on this PC< Properties< search for environment< Path variable<edit<new<paste the copy
+
+Day2
+*File name should be PascalCase.e.g., FirstClass
+*Java is based on OOPs.
+*Everything is done by using objects.
+*Every program in java starts with a class.
+*Every class has some features.
+*File name and class name should be same.
+*Should include comments to make understand easily.
+*Source code (.java)
+*Compile(javac).
+*javac<SourceFileName>.java
+*We'll get byte code(.class).
+*To open terminal to get source code compile (ctrl+`).
+*Compile--> File Name but on Compile byte code will be make by class name.
+*To run--> java<BytecodeName>(Class Name).
+*Main method or main functon--> Entry Point or Entry gate.
+*void -->keyword(Reserve Word)- No return.
+*static --> when class is loaded in memory, then static will load along.
+*Static (Eager Loading).
+*public - access outside the package(Folder).
+*String args[] --> Command Line Arguments.
+*args is flexible, means that we can change its name to different one.
+*In Terminal -->cls to clear the terminal
+*print is a predefined function whose function is to print on console.
+*out object belongs to PrintStream Class and created by System Class.
+*[]--> Box / Array.
+
+
+Day3
+Data Types
+* Numeric-> Byte(-128 to 127 (-2^(8-1) to 2^(8-1)-1)), short, int, long
+* Text
+* Boolean
+
+
+Day4
+Access modifier
+1. Public
+2. Private
+3. Protected
+4. Default
+
+System class
+1. System.in --> for input
+   Input
+    --> Keyboard using scanner class
+    --> Files
+    --> Network
+2. System.out --> for output
+3. System.err --> for error
+
+For input
+System.in.read --> Reads one char at a time and return ASCII Value of char read.
+
+datatypes
+1. Primitive
+byte      float      boolean     char
+short     double
+int         
+long
+2. Non-Primitive
+-string--> belongs to wrapper class, wrapper class also contains integer, float, char, double, long.
+-Array
+
+Day5
+Conditions and loops
+Scanner is a predefined API(a predefined class)
+
+Day6
+Loops and conditional statements
+* create constants by using keyword final with capital alphabets. Always declare constants in capital case.
+* SonarQube SoanrCloud ---> a software used to review code.(whether it is readible or not).
+* variable name or functions name is always in camel case.
+* class name is always in pascal case.
+* constants is always in capital case.
+*Formatted and unformatted ---> 2000- unformatted
+   Rs.2,000-> formatted
+* objects can be make either shared or personal.
+* In heap, META SPACE memory has been created by JRE,JRE activates JVM, JVM activates classloader and memory will create in heap where all classes will load in META SPACE.
+* After classloading, java will check BYTE Code Verification whether there is any malicious code or not.
+If not, then interpret the code and convert into native code.
+* object is in heap, local variables and functions is in stack.
+*Visual vm ---> a tool which will tell and show memory and heap and stack as well.
+
+
+Day7
+loops
+* To solve a problem, there are 2 ways
+   1. Iterative way --> Looping
+   2. Recursion -->Repetition
+
+Operations used in loops
+1. a++
+2. ++a
+3. a--
+4. --a
+
+Day8
+
+
+
+
+
+
+

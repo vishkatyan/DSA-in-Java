@@ -1,0 +1,15 @@
+What is Function?
+Function contains block of code. The block of code has some name and whenever we need it we just call it.
+
+* Loops and recursion both creates cycle.
+
+* To solve recursion problem-
+1. Identify small problem.
+2. Put it into cycle(Recursion).
+3. Identify the processing logic.
+4. Stop the recursion by applying termination case or Base case.
+Note: Always create a call stack
+Identify the stack build and stack fall.
+
+29 Dec 22
+Multi branch recursion
