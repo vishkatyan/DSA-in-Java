@@ -1,0 +1,21 @@
+//public class FibonacciSeries {
+//    static int res = 0;
+//
+//    static int fib(in int n) {
+//        if (n == 0) {
+//            return 0;
+//        }
+//        if (n == 1) {
+//            return 1;
+//        }
+//           = fib(n-1)+fib(n-2);
+//
+//
+//        return res;
+//    }
+//
+//    public static void main(String[] args) {
+//        fib(5);
+//       // System.out.println(fib(0, 1, 5));
+//    }
+//}
